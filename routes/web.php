@@ -24,13 +24,29 @@ Route::get('my-datatables', 'MyDatatablesController@index');
 Route::get('get-data-my-datatables', ['as'=>'get.data','uses'=>'MyDatatablesController@getData']);
 
 Route::get('orders','OrderController@index')->name('orders.index');
-
-
-
-
-
-
-
+/*something goes here*/
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+/*eloquent section*/
+Route::get('eloquent', 'EloquentController@index');
+
+Route::get('get-order-my-datatables', ['as'=>'get.order','uses'=>'EloquentController@getData']);
+/*end eloquent  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

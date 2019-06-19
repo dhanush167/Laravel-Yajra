@@ -28,14 +28,20 @@
                 </a>
 
                 <a class="navbar-brand" href="{{ url('/ajaxproducts') }}">
-                   Porduct table
+                   Porduct Table
                 </a>
                 <a class="navbar-brand" href="{{ url('/my-datatables') }}">
-                    User table
+                    User Table
                 </a>
                 <a class="navbar-brand" href="{{ url('/orders') }}">
-                    Order table
+                    Order Table
                 </a>
+
+                <a class="navbar-brand" href="{{ url('/eloquent') }}">
+                    Eloquent
+                </a>
+
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
