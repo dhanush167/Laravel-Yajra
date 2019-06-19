@@ -38,6 +38,8 @@
 
             <th>Name</th>
 
+            <th>intro</th>
+
             <th>Email</th>
 
             <th>Created At</th>
@@ -74,7 +76,9 @@
 
                 { data: 'id', name: 'id' },
 
-                { data: 'item', name: 'item' },
+                { data: 'DT_RowData.data-name', name: 'item' },
+
+                { data: 'customer', name: 'customer' },
 
                 { data: 'customer_id', name: 'customer_id' },
 

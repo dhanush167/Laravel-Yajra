@@ -32,6 +32,19 @@ class EloquentController extends Controller
 
             ->setRowClass('{{ $id % 2 == 0 ? "alert-info" : "alert-danger"}}')
 
+            ->setRowId(function ($user) {
+                return $user->id;
+            })
+
+            ->setRowData(['data-name' => 'Dhanushka-{{$item}}',])
+
+
+            ->addColumn('customer', function(Order $item) {
+                return 'Hi ' . $item->customer->name . '!';
+            })
+
+
+
 
             ->make(true);
 
