@@ -18,11 +18,7 @@ class OrderController extends Controller
 
             return Datatables::of($data)
 
-                ->setRowClass(function ($data) {
-                    return $data->id % 2 == 0 ? 'alert-success' : 'alert-danger';
-                })
-
-
+                ->setRowClass('{{ $id % 2 == 0 ? "alert-success" : "alert-warning"}}')
 
                 ->addIndexColumn()
 
