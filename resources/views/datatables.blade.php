@@ -24,7 +24,7 @@
 
     <br/>
 
-    <h1 class="text-center">HDTuto - Laravel DataTables Tutorial Example</h1>
+    <h1 class="text-center"><a href="{{ url('home') }}">HDTuto - Laravel DataTables Tutorial Example </a></h1>
 
     <br/>
 

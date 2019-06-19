@@ -31,8 +31,8 @@
 
 
 <div class="container">
-
-    <h1>Laravel 5.8 Ajax CRUD tutorial using Datatable - HDTuto.com</h1>
+    <br/>
+    <h1><a href="{{ url('home') }}">Laravel 5.8 Ajax CRUD tutorial using Datatable - HDTuto.com</a>  </h1>
 
     <a class="btn btn-success mb-4 mt-4"  href="javascript:void(0)" id="createNewProduct"> Create New Product</a>
 
