@@ -18,6 +18,8 @@ class OrderController extends Controller
 
             return Datatables::of($data)
 
+
+
                 ->setRowClass('{{ $id % 2 == 0 ? "alert-success" : "alert-warning"}}')
 
                 ->setRowAttr([
@@ -26,6 +28,8 @@ class OrderController extends Controller
                 ])
 
                 ->setRowData(['data-name' => ' Dhanushka -{{$item}}',])
+
+                ->addColumn('intro', 'Hi {{$item}}!')
 
                 ->addIndexColumn()
 

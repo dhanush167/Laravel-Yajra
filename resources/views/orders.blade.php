@@ -44,6 +44,8 @@
 
             <th>Name</th>
 
+            <th>Intro</th>
+
             <th>Email</th>
 
             <th width="100px">Action</th>
@@ -87,6 +89,8 @@
                 {data: 'DT_RowIndex', name: 'DT_RowIndex'},
 
                 {data: 'DT_RowData.data-name', name: 'item'},
+
+                {data: 'intro', name: 'intro'},
 
                 {data: 'customer_id', name: 'customer_id'},
 
