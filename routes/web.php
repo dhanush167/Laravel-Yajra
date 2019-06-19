@@ -23,11 +23,7 @@ Route::get('my-datatables', 'MyDatatablesController@index');
 
 Route::get('get-data-my-datatables', ['as'=>'get.data','uses'=>'MyDatatablesController@getData']);
 
-
-
-
-
-
+Route::get('orders','OrderController@index')->name('orders.index');
 
 
 
