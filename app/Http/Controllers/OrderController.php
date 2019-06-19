@@ -20,6 +20,12 @@ class OrderController extends Controller
 
                 ->setRowClass('{{ $id % 2 == 0 ? "alert-success" : "alert-warning"}}')
 
+                ->setRowAttr([
+                    'id' => 'x-sample-syle-id',
+                    'align' => 'right',
+                ])
+
+
                 ->addIndexColumn()
 
                 ->addColumn('action', function($row){
