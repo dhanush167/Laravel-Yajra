@@ -25,6 +25,7 @@ class OrderController extends Controller
                     'align' => 'right',
                 ])
 
+                ->setRowData(['data-name' => ' Dhanushka -{{$item}}',])
 
                 ->addIndexColumn()
 

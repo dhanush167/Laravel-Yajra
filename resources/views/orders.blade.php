@@ -86,7 +86,7 @@
 
                 {data: 'DT_RowIndex', name: 'DT_RowIndex'},
 
-                {data: 'item', name: 'item'},
+                {data: 'DT_RowData.data-name', name: 'item'},
 
                 {data: 'customer_id', name: 'customer_id'},
 
